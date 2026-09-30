@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Resume of John Ponteres — Software Developer and Web Developer.">
+  <title>Résumé — John Ponteres</title>
+  <style>
+    :root{--ink:#111827;--muted:#5f6b7a;--line:#d9e0e8;--accent:#cabd2f;--soft:#f5f7fa}
+    *{box-sizing:border-box} body{margin:0;background:#0b1420;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink)}
+    a{color:inherit}.toolbar{width:min(calc(100% - 32px),1000px);margin:26px auto 12px;display:flex;justify-content:space-between;gap:12px;align-items:center;color:white}
+    .toolbar a,.toolbar button{border:1px solid rgba(255,255,255,.16);background:#111d2c;color:white;padding:10px 14px;border-radius:9px;font:inherit;cursor:pointer;text-decoration:none}
+    .toolbar .accent{background:#f2df55;color:#111;border-color:#f2df55;font-weight:750}
+    .resume{width:min(calc(100% - 32px),1000px);margin:0 auto 40px;background:white;box-shadow:0 30px 90px rgba(0,0,0,.35)}
+    .head{padding:34px 38px 28px;background:#101a28;color:white;border-bottom:4px solid #e5d648}
+    .head h1{font-size:36px;line-height:1;margin:0 0 7px;letter-spacing:-.04em}.head h2{font-size:15px;margin:0;color:#e5d648;letter-spacing:.08em}
+    .contact{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:18px;color:#c8d1dc;font-size:12px}.contact a{text-decoration:none}
+    .body{display:grid;grid-template-columns:1.65fr .85fr;gap:30px;padding:30px 38px 34px}
+    section{margin-bottom:25px} .section-title{font-size:12px;letter-spacing:.14em;color:#697485;font-weight:800;margin:0 0 11px;text-transform:uppercase}
+    p{font-size:12px;line-height:1.6;margin:0;color:#303946}.profile{font-size:13px}
+    .project{padding:15px 0;border-top:1px solid var(--line)}.project:first-of-type{border-top:0;padding-top:0}
+    .project-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.project h3{font-size:15px;margin:0}.project .meta{font-size:10px;color:#7a8491;white-space:nowrap}
+    .project .role{font-size:11px;color:#5c6674;margin:3px 0 8px}.project ul,.exp ul{margin:7px 0 0;padding-left:17px}.project li,.exp li{font-size:11px;line-height:1.5;margin:4px 0;color:#303946}
+    .stack{font-size:10px;margin-top:8px;color:#626d7b}.badge{display:inline-block;background:#f4f0bf;color:#46410f;border-radius:999px;padding:3px 7px;margin-left:6px;font-size:9px;font-weight:800}
+    .side-card{padding:15px;border:1px solid var(--line);background:var(--soft);border-radius:10px;margin-bottom:14px}.side-card h3{font-size:11px;letter-spacing:.11em;text-transform:uppercase;margin:0 0 9px;color:#626d7b}
+    .skills{display:flex;flex-wrap:wrap;gap:6px}.skills span{font-size:10px;padding:5px 7px;border:1px solid #d4dbe4;background:white;border-radius:6px}
+    .signal{font-size:12px;font-weight:750;margin:7px 0}.signal small{display:block;font-weight:400;color:#6c7683;margin-top:2px}
+    .edu b,.exp b{font-size:12px}.edu small,.exp small{display:block;font-size:10px;color:#707b89;margin-top:3px}.exp p{font-size:11px;margin-top:8px}
+    @media(max-width:760px){.body{grid-template-columns:1fr;padding:24px}.head{padding:28px 24px}.resume{width:100%;margin:0}.toolbar{width:calc(100% - 24px)}}
+    @media print{body{background:white}.toolbar{display:none}.resume{width:100%;margin:0;box-shadow:none}.head{print-color-adjust:exact;-webkit-print-color-adjust:exact}.body{padding:24px 32px}}
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <a href="index.html">← Back to portfolio</a>
+    <button class="accent" onclick="window.print()">Print / Save PDF</button>
+  </div>
+
+  <main class="resume">
+    <header class="head">
+      <h1>John Ponteres</h1>
+      <h2>SOFTWARE DEVELOPER / WEB DEVELOPER</h2>
+      <div class="contact">
+        <span>Philippines</span>
+        <a href="mailto:johnponteres07@gmail.com">johnponteres07@gmail.com</a>
+        <a href="https://github.com/havimotions" target="_blank" rel="noreferrer">github.com/havimotions</a>
+        <a href="https://www.linkedin.com/in/john-ponteres-2313a62a5/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="index.html">Portfolio</a>
+      </div>
+    </header>
+
+    <div class="body">
+      <div>
+        <section>
+          <p class="section-title">Profile</p>
+          <p class="profile">Software and web developer building end-to-end systems across interfaces, backend services, APIs, and automation. Recent work includes a custom WooCommerce site, a connected web/Discord/server platform, and Java tooling validated by 117 automated tests. Comfortable taking requirements from idea to implementation and QA.</p>
+        </section>
+
+        <section>
+          <p class="section-title">Selected Projects</p>
+
+          <article class="project">
+            <div class="project-head"><h3>Project Beans <span class="badge">WEB</span></h3><span class="meta">2026</span></div>
+            <div class="role">Web Development / E-commerce</div>
+            <ul>
+              <li>Built responsive product, cart/order, manual shipping-quote, billing/shipping, confirmation, and payment-instruction flows.</li>
+              <li>Implemented live AJAX cart updates, product galleries, keyboard/focus accessibility, reusable design tokens, and custom WordPress admin tooling.</li>
+            </ul>
+            <div class="stack"><b>Stack:</b> WordPress · WooCommerce · PHP · JavaScript/AJAX · HTML/CSS</div>
+          </article>
+
+          <article class="project">
+            <div class="project-head"><h3>LemonCraft Platform <span class="badge">FULL-STACK</span></h3><span class="meta">2026</span></div>
+            <div class="role">Full-Stack Web / Backend Integration</div>
+            <ul>
+              <li>Built and integrated storefront, player profiles, leaderboards, Discord authentication, rewards, wallet/cart flows, and administrative workflows.</li>
+              <li>Connected Node.js/Express/Discord.js services with Java server plugins through REST APIs for cross-system data and reward delivery.</li>
+            </ul>
+            <div class="stack"><b>Stack:</b> Node.js · Express · Discord.js · REST APIs · Java</div>
+          </article>
+
+          <article class="project">
+            <div class="project-head"><h3>LemonFullReset <span class="badge">117 TESTS</span></h3><span class="meta">2026</span></div>
+            <div class="role">Java Automation / Backend Tool</div>
+            <ul>
+              <li>Implemented paced live processing, offline region processing, persistent checkpoints, restart/resume behavior, and cleanup integrations.</li>
+              <li>Hardened async scanning, persistence recovery, config caps, and batching; 117 automated tests passed.</li>
+            </ul>
+            <div class="stack"><b>Stack:</b> Java 21 · Paper/Purpur · Maven · Automated Testing</div>
+          </article>
+        </section>
+
+        <section class="exp">
+          <p class="section-title">Experience</p>
+          <b>Freelance Video Editor & Digital Creative</b>
+          <small>Remote / Contract · 2026–Present</small>
+          <ul>
+            <li>Deliver short-form ads and digital content from client briefs while managing deadlines, revisions, and changing requirements.</li>
+            <li>Translate feedback into precise revisions and keep delivery organized across remote teams and multiple projects.</li>
+          </ul>
+        </section>
+      </div>
+
+      <aside>
+        <div class="side-card">
+          <h3>Quick Signals</h3>
+          <div class="signal">2 websites built<small>Web and e-commerce work</small></div>
+          <div class="signal">117 automated tests<small>LemonFullReset</small></div>
+          <div class="signal">Full-stack integrations<small>Web · API · Discord · Java</small></div>
+        </div>
+
+        <div class="side-card">
+          <h3>Core Stack</h3>
+          <div class="skills">
+            <span>Java 21</span><span>JavaScript</span><span>PHP</span><span>Node.js</span><span>Express</span><span>WordPress</span><span>WooCommerce</span><span>REST APIs</span><span>HTML</span><span>CSS</span><span>Git/GitHub</span><span>Maven</span><span>Discord.js</span>
+          </div>
+        </div>
+
+        <div class="side-card edu">
+          <h3>Education</h3>
+          <b>AMA University</b>
+          <small>Computer Engineering · Undergraduate</small>
+          <small>Coursework through 2025</small>
+        </div>
+      </aside>
+    </div>
+  </main>
+</body>
+</html>
