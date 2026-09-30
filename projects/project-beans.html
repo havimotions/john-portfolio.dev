@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Project Beans case study — custom WordPress and WooCommerce e-commerce website by John Ponteres.">
+  <title>Project Beans — John Ponteres</title>
+  <link rel="stylesheet" href="../case-study.css">
+</head>
+<body>
+<header class="nav-wrap">
+  <nav class="nav container">
+    <a class="brand" href="../index.html">
+      <span class="brand-mark">JP</span>
+      <span class="brand-name">John Ponteres</span>
+    </a>
+    <a class="btn btn-ghost" href="../index.html#projects">All Projects</a>
+  </nav>
+</header>
+
+<main>
+  <section class="container case-hero">
+    <a class="back-link" href="../index.html#projects">← Back to portfolio</a>
+    <div class="case-kicker">CASE STUDY · WEB DEVELOPMENT / E-COMMERCE</div>
+    <h1 class="case-title">Project Beans</h1>
+    <p class="case-lede">A custom WordPress/WooCommerce storefront built around a real coffee-product ordering flow, including responsive product browsing, cart behavior, shipping and billing steps, payment instructions, and custom admin functionality.</p>
+
+    <div class="case-meta">
+      <span>WordPress</span>
+      <span>WooCommerce</span>
+      <span>PHP</span>
+      <span>JavaScript / AJAX</span>
+      <span>HTML / CSS</span>
+      <span>Responsive UI</span>
+    </div>
+
+    <div class="case-actions">
+      <a class="btn btn-accent" href="https://johnponteres07-qkwgz-studio.wp.build" target="_blank" rel="noreferrer">Open Live Demo ↗</a>
+      <a class="btn btn-ghost" href="../index.html#contact">Contact Me</a>
+    </div>
+
+    <div class="case-screenshot" style="margin-top:32px">
+      <img src="../assets/project-beans.webp" alt="Project Beans Coffee website homepage">
+    </div>
+    <p class="case-note">Current portfolio demo hosted on a WordPress staging environment.</p>
+  </section>
+
+  <div class="container case-content">
+    <aside class="case-sidebar">
+      <a href="#problem">The problem</a>
+      <a href="#solution">The solution</a>
+      <a href="#features">What I built</a>
+      <a href="#checkout">Checkout workflow</a>
+      <a href="#details">Implementation details</a>
+      <a href="#learning">What I learned</a>
+    </aside>
+
+    <div class="case-main">
+      <section id="problem">
+        <p class="eyebrow">01 · THE PROBLEM</p>
+        <h2>A normal storefront wasn’t enough.</h2>
+        <p>Project Beans needed a coffee-shopping experience that felt simple for customers while supporting a less typical order flow. Shipping needed to be confirmed before payment, so the website had to communicate that clearly without making the product and cart experience feel confusing.</p>
+      </section>
+
+      <section id="solution">
+        <p class="eyebrow">02 · THE SOLUTION</p>
+        <h2>A custom WooCommerce experience around the actual buying process.</h2>
+        <p>I built a responsive WordPress/WooCommerce foundation that keeps standard commerce behavior where it helps, while adapting the presentation and workflow around Project Beans’ ordering requirements.</p>
+
+        <div class="metric-row">
+          <div class="metric"><strong>Products</strong><span>Responsive product browsing and product-detail experiences</span></div>
+          <div class="metric"><strong>Cart</strong><span>Live AJAX cart updates and order-state feedback</span></div>
+          <div class="metric"><strong>Checkout</strong><span>Shipping, billing, confirmation and payment-instruction flow</span></div>
+        </div>
+      </section>
+
+      <section id="features">
+        <p class="eyebrow">03 · WHAT I BUILT</p>
+        <h2>Frontend and backend work in one project.</h2>
+        <ul>
+          <li>Responsive homepage, product browsing, product pages, cart, order, billing, shipping, confirmation and payment-instruction screens.</li>
+          <li>Live AJAX cart updates so quantity and cart state can change without unnecessary page reloads.</li>
+          <li>Product galleries and reusable visual components for a more consistent storefront.</li>
+          <li>Keyboard and focus-state accessibility improvements for interactive elements.</li>
+          <li>Custom WordPress functionality for content, validation, taxonomy/REST support and admin workflows.</li>
+        </ul>
+      </section>
+
+      <section id="checkout">
+        <p class="eyebrow">04 · CHECKOUT WORKFLOW</p>
+        <h2>Designing around shipping confirmation before payment.</h2>
+        <p>The most important UX constraint was making the order sequence understandable. The site reinforces that shipping is confirmed before payment, then guides the user through product selection, cart review, customer details, shipping/billing information, confirmation and payment instructions.</p>
+      </section>
+
+      <section id="details">
+        <p class="eyebrow">05 · IMPLEMENTATION DETAILS</p>
+        <h2>More than a page-builder exercise.</h2>
+        <div class="lessons">
+          <div class="lesson"><b>WooCommerce customization</b><p>Adjusted the presentation and workflow around the brand’s ordering requirements instead of relying only on default templates.</p></div>
+          <div class="lesson"><b>AJAX behavior</b><p>Used dynamic cart interactions to make common shopping actions feel faster and more immediate.</p></div>
+          <div class="lesson"><b>Reusable UI</b><p>Kept typography, spacing, controls and product components consistent across the shopping flow.</p></div>
+          <div class="lesson"><b>Admin tooling</b><p>Built custom content and validation support so the site is easier to manage beyond the public-facing pages.</p></div>
+        </div>
+      </section>
+
+      <section id="learning">
+        <p class="eyebrow">06 · WHAT I LEARNED</p>
+        <h2>Good web development starts with the business workflow.</h2>
+        <p>This project reinforced that a technically working checkout is not enough. The experience has to communicate what happens next, reduce uncertainty, work across screen sizes, and remain manageable for the people operating the site.</p>
+      </section>
+    </div>
+  </div>
+
+  <section class="container case-footer-cta">
+    <div class="case-footer-card">
+      <div>
+        <h2>Next project: LemonCraft Platform</h2>
+        <p>A full-stack community platform connecting web, Discord, APIs, and Java server systems.</p>
+      </div>
+      <a class="btn btn-accent" href="lemoncraft.html">View case study →</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <div class="brand">
+      <span class="brand-mark">JP</span>
+      <div><b>John Ponteres</b><small>Software Developer · Web Developer</small></div>
+    </div>
+    <p>Build · Integrate · Automate</p>
+  </div>
+</footer>
+</body>
+</html>
