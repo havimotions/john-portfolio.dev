@@ -3,8 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="John Ponteres — Software Developer & Web Developer building full-stack web platforms, backend systems, APIs, integrations and automation tools." />
+  <meta name="description" content="John Ponteres — Software Developer & Web Developer building responsive websites, backend systems, APIs, integrations and automation tools." />
   <meta name="theme-color" content="#07101c" />
+  <meta property="og:title" content="John Ponteres — Software Developer & Web Developer" />
+  <meta property="og:description" content="Selected web, backend, integration and automation projects by John Ponteres." />
   <title>John Ponteres — Software Developer & Web Developer</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -16,16 +18,22 @@
           <span class="brand-mark">JP</span>
           <span class="brand-name">John Ponteres</span>
         </a>
+
         <div class="nav-links" id="navLinks">
           <a href="#top">Home</a>
           <a href="#projects">Projects</a>
           <a href="#about">About</a>
           <a href="#contact">Contact</a>
         </div>
-        <a class="btn btn-accent nav-cta" href="#contact">Let’s Talk <span>↗</span></a>
-        <button class="menu-btn" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">
-          <span></span><span></span>
-        </button>
+
+        <div class="nav-actions">
+          <a class="nav-social" href="https://github.com/havimotions" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="nav-social" href="https://www.linkedin.com/in/john-ponteres-2313a62a5/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn btn-accent nav-cta" href="resume.html">Résumé <span>↗</span></a>
+          <button class="menu-btn" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">
+            <span></span><span></span>
+          </button>
+        </div>
       </nav>
     </header>
 
@@ -34,57 +42,53 @@
         <div class="hero-copy reveal">
           <p class="eyebrow">SOFTWARE DEVELOPER · WEB DEVELOPER</p>
           <h1>I build software that <span class="accent-text">connects</span> things.</h1>
-          <p class="hero-lede">I build practical software—from responsive web platforms and dashboards to backend systems, APIs, integrations, and automation tools.</p>
+          <p class="hero-lede">I build responsive websites, backend systems, APIs, integrations, and automation tools—turning real requirements into working products.</p>
+
           <div class="hero-actions">
             <a class="btn btn-accent" href="#projects">View My Work <span>→</span></a>
-            <a class="btn btn-ghost" href="#contact">Contact Me</a>
+            <a class="btn btn-ghost" href="resume.html">View Résumé</a>
+            <a class="btn btn-ghost" href="mailto:johnponteres07@gmail.com">Contact Me</a>
           </div>
+
           <div class="proof-grid" aria-label="Selected proof points">
-            <div><strong>Real</strong><span>production projects</span></div>
+            <div><strong>2</strong><span>complete websites built</span></div>
             <div><strong>117</strong><span>automated tests on LemonFullReset</span></div>
-            <div><strong>3 layers</strong><span>web · Discord · Minecraft</span></div>
+            <div><strong>Full-stack</strong><span>web · backend · APIs · integrations</span></div>
           </div>
         </div>
 
-        <div class="hero-visual reveal reveal-delay" aria-label="LemonCraft platform preview">
+        <div class="hero-visual reveal reveal-delay" aria-label="Project Beans website preview">
           <div class="glow-orb glow-one"></div>
           <div class="glow-orb glow-two"></div>
-          <div class="browser-card">
+
+          <div class="browser-card real-preview">
             <div class="browser-top">
               <div class="window-dots"><i></i><i></i><i></i></div>
-              <span>lemoncraft.app</span>
-              <span class="status-dot">live system</span>
+              <span>Project Beans Coffee</span>
+              <span class="status-dot">live demo</span>
             </div>
-            <div class="platform-preview">
-              <div class="preview-nav">
-                <span class="lemon-logo">◆</span>
-                <strong>LEMONCRAFT</strong>
-                <span class="preview-nav-links">Store &nbsp; Leaderboards &nbsp; Community</span>
-              </div>
-              <div class="preview-hero">
-                <p class="tiny-label">FULL-STACK COMMUNITY PLATFORM</p>
-                <h3>Play. Connect. Belong.</h3>
-                <p>Store, profiles, leaderboards, Discord, rewards and server data in one connected platform.</p>
-                <div class="preview-buttons"><span>Browse Store</span><span>Join Discord</span></div>
-              </div>
-              <div class="preview-stats">
-                <div><b>WEB</b><small>Store + dashboard</small></div>
-                <div><b>API</b><small>Backend services</small></div>
-                <div><b>DISCORD</b><small>Auth + automation</small></div>
-                <div><b>SERVER</b><small>Rewards + data</small></div>
-              </div>
+            <div class="real-preview-wrap">
+              <img class="hero-site-shot" src="assets/project-beans.webp" alt="Project Beans Coffee website homepage" />
+              <span class="hero-live-pill">WordPress / WooCommerce build</span>
             </div>
           </div>
-          <div class="floating-card float-a"><span>●</span><div><b>Connected system</b><small>Website ↔ API ↔ Server</small></div></div>
-          <div class="floating-card float-b"><span>✓</span><div><b>Production work</b><small>Built around real workflows</small></div></div>
+
+          <div class="floating-card float-a">
+            <span>↗</span>
+            <div><b>Live web project</b><small>Responsive e-commerce experience</small></div>
+          </div>
+          <div class="floating-card float-b">
+            <span>✓</span>
+            <div><b>Custom workflows</b><small>Cart · shipping · payment · admin</small></div>
+          </div>
         </div>
       </section>
 
       <section class="capabilities-wrap">
         <div class="container capabilities">
-          <article><span class="cap-icon">▱</span><div><b>Web Development</b><small>Responsive websites, dashboards, commerce</small></div><em>→</em></article>
-          <article><span class="cap-icon">▤</span><div><b>Backend Systems</b><small>APIs, services, persistence, integrations</small></div><em>→</em></article>
-          <article><span class="cap-icon">⌁</span><div><b>Automation & Integration</b><small>Discord, webhooks, third-party systems</small></div><em>→</em></article>
+          <article><span class="cap-icon">▱</span><div><b>Web Development</b><small>Responsive websites, commerce, interfaces</small></div><em>→</em></article>
+          <article><span class="cap-icon">▤</span><div><b>Backend Systems</b><small>APIs, services, persistence, server logic</small></div><em>→</em></article>
+          <article><span class="cap-icon">⌁</span><div><b>Automation & Integration</b><small>Discord, third-party systems, cross-platform workflows</small></div><em>→</em></article>
         </div>
       </section>
 
@@ -93,27 +97,56 @@
           <div>
             <p class="eyebrow">SELECTED WORK</p>
             <h2>Featured projects</h2>
-            <p>Three projects that best show how I approach product building, backend engineering, and systems integration.</p>
+            <p>Real projects spanning e-commerce, full-stack integrations, backend automation, and cross-system APIs.</p>
           </div>
         </div>
 
         <div class="project-grid">
-          <article class="project-card feature-project reveal">
-            <div class="project-media web-media">
-              <div class="mini-browser">
-                <div class="mini-bar"><i></i><i></i><i></i></div>
-                <div class="mini-site">
-                  <div class="mini-site-top"><span>◆ LEMONCRAFT</span><span>Store &nbsp; Community</span></div>
-                  <div class="mini-site-center"><small>FULL-STACK PLATFORM</small><strong>LEMONCRAFT</strong><span>Web · Discord · Minecraft</span></div>
-                </div>
-              </div>
+          <article class="project-card reveal">
+            <div class="project-media image-media">
+              <img class="project-shot" src="assets/project-beans.webp" alt="Project Beans Coffee website" />
               <span class="project-number">01</span>
             </div>
             <div class="project-body">
-              <div class="project-topline"><h3>LemonCraft Platform</h3><span class="tag primary">Full-Stack</span></div>
-              <p>A complete community and commerce platform connecting a responsive website, backend services, Discord, player accounts, rewards, and game-server systems.</p>
-              <div class="tags"><span>Node.js</span><span>Express</span><span>Discord.js</span><span>REST APIs</span><span>Java</span></div>
-              <div class="project-actions"><a class="btn btn-accent btn-small" href="projects/lemoncraft.html">View Case Study →</a><span class="private-note">Private source</span></div>
+              <div class="project-topline">
+                <h3>Project Beans</h3>
+                <span class="tag primary">Web / E-commerce</span>
+              </div>
+              <p>A custom WordPress/WooCommerce storefront with responsive product, cart, shipping, billing, confirmation, payment-instruction, and admin workflows.</p>
+              <div class="tags">
+                <span>WordPress</span><span>WooCommerce</span><span>PHP</span><span>JavaScript</span><span>HTML/CSS</span>
+              </div>
+              <div class="project-actions">
+                <div class="project-action-links">
+                  <a class="btn btn-accent btn-small" href="projects/project-beans.html">View Case Study →</a>
+                  <a class="btn btn-outline btn-small" href="https://johnponteres07-qkwgz-studio.wp.build" target="_blank" rel="noreferrer">Live Demo ↗</a>
+                </div>
+                <span class="private-note">Web project</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-media image-media">
+              <img class="project-shot lemon-shot" src="https://store.lemoncraft.fun/lemoncraft-showcase.png" alt="LemonCraft Network showcase" />
+              <span class="project-number">02</span>
+            </div>
+            <div class="project-body">
+              <div class="project-topline">
+                <h3>LemonCraft Platform</h3>
+                <span class="tag primary">Full-Stack</span>
+              </div>
+              <p>A connected community and commerce platform with web UI, Discord authentication, player profiles, store workflows, rewards, leaderboards, and Java-side integrations.</p>
+              <div class="tags">
+                <span>Node.js</span><span>Express</span><span>Discord.js</span><span>REST APIs</span><span>Java</span>
+              </div>
+              <div class="project-actions">
+                <div class="project-action-links">
+                  <a class="btn btn-accent btn-small" href="projects/lemoncraft.html">View Case Study →</a>
+                  <a class="btn btn-outline btn-small" href="https://store.lemoncraft.fun" target="_blank" rel="noreferrer">Live Site ↗</a>
+                </div>
+                <span class="private-note">Private source</span>
+              </div>
             </div>
           </article>
 
@@ -123,13 +156,21 @@
                 <div class="terminal-head"><span>lemon-full-reset</span><span>● ● ●</span></div>
                 <code><i>[INFO]</i> Starting safe world reset...<br><i>[INFO]</i> Scanning chunks in paced batches<br><i>[INFO]</i> Cleaning configured resources...<br><i>[INFO]</i> Progress checkpoint saved<br><b>[PASS]</b> Recovery state verified<br><b>[PASS]</b> 117 tests passing</code>
               </div>
-              <span class="project-number">02</span>
+              <span class="project-number">03</span>
             </div>
             <div class="project-body">
-              <div class="project-topline"><h3>LemonFullReset</h3><span class="tag">Automation</span></div>
-              <p>A performance-conscious world-cleanup engine with paced processing, persistent progress, restart recovery, and integration with existing server systems.</p>
-              <div class="tags"><span>Java 21</span><span>Paper/Purpur</span><span>Maven</span><span>Testing</span></div>
-              <div class="project-actions"><a class="btn btn-outline btn-small" href="projects/lemonfullreset.html">View Case Study →</a><span class="private-note">117 tests</span></div>
+              <div class="project-topline">
+                <h3>LemonFullReset</h3>
+                <span class="tag">Automation</span>
+              </div>
+              <p>A performance-conscious Java reset and cleanup engine with paced processing, persistent checkpoints, restart recovery, and integration-safe cleanup.</p>
+              <div class="tags">
+                <span>Java 21</span><span>Paper/Purpur</span><span>Maven</span><span>Automated Testing</span>
+              </div>
+              <div class="project-actions">
+                <a class="btn btn-outline btn-small" href="projects/lemonfullreset.html">View Case Study →</a>
+                <span class="private-note">117 tests passing</span>
+              </div>
             </div>
           </article>
 
@@ -140,15 +181,27 @@
                 <div class="arch-node"><small>COMMUNITY</small><b>Discord</b></div>
                 <div class="arch-core"><small>INTEGRATION LAYER</small><b>LemonBridge</b><span>REST API</span></div>
                 <div class="arch-node"><small>RUNTIME</small><b>Server</b></div>
-                <svg viewBox="0 0 700 260" preserveAspectRatio="none" aria-hidden="true"><path d="M130,65 C240,65 250,130 330,130"/><path d="M130,195 C240,195 250,130 330,130"/><path d="M470,130 C535,130 545,130 590,130"/></svg>
+                <svg viewBox="0 0 700 260" preserveAspectRatio="none" aria-hidden="true">
+                  <path d="M130,65 C240,65 250,130 330,130"/>
+                  <path d="M130,195 C240,195 250,130 330,130"/>
+                  <path d="M470,130 C535,130 545,130 590,130"/>
+                </svg>
               </div>
-              <span class="project-number">03</span>
+              <span class="project-number">04</span>
             </div>
             <div class="project-body">
-              <div class="project-topline"><h3>LemonBridge</h3><span class="tag">Integration</span></div>
-              <p>An integration layer connecting the website and Discord workflows with Minecraft server data, rewards, accounts, economy, teams, and leaderboards.</p>
-              <div class="tags"><span>Java 21</span><span>REST APIs</span><span>Vault</span><span>BetterTeams</span></div>
-              <div class="project-actions"><a class="btn btn-outline btn-small" href="projects/lemonbridge.html">View Case Study →</a><span class="private-note">Backend integration</span></div>
+              <div class="project-topline">
+                <h3>LemonBridge</h3>
+                <span class="tag">Integration</span>
+              </div>
+              <p>A Java integration layer connecting website and Discord workflows with server-side player data, rewards, economy, teams, and leaderboards.</p>
+              <div class="tags">
+                <span>Java 21</span><span>REST APIs</span><span>Vault</span><span>BetterTeams</span>
+              </div>
+              <div class="project-actions">
+                <a class="btn btn-outline btn-small" href="projects/lemonbridge.html">View Case Study →</a>
+                <span class="private-note">Backend integration</span>
+              </div>
             </div>
           </article>
         </div>
@@ -156,32 +209,44 @@
 
       <section class="container section-pad compact-pad">
         <div class="section-heading reveal">
-          <div><p class="eyebrow">MORE BUILDING</p><h2>Additional projects</h2><p>Smaller products and systems that show range across tooling, progression, commerce, and gameplay systems.</p></div>
+          <div>
+            <p class="eyebrow">MORE ENGINEERING WORK</p>
+            <h2>Additional systems</h2>
+            <p>Smaller tools and product systems showing range across conversion, progression, commerce, and game-server applications.</p>
+          </div>
         </div>
+
         <div class="small-projects reveal">
-          <article><span>⇄</span><h3>LemonConvert</h3><p>Java → Bedrock custom-content conversion toolkit.</p><small>Java · Conversion</small></article>
-          <article><span>◇</span><h3>LemonPets</h3><p>Pet, egg, incubation, leveling, rarity and event system.</p><small>Java · Product systems</small></article>
+          <article><span>⇄</span><h3>LemonConvert</h3><p>Java → Bedrock custom-content conversion tooling.</p><small>Java · Conversion · Geyser</small></article>
+          <article><span>◇</span><h3>LemonPets</h3><p>Pet, egg, incubation, leveling, rarity, and event systems.</p><small>Java · Product systems</small></article>
           <article><span>◒</span><h3>LemonTrader</h3><p>Economy-driven player trading system and workflows.</p><small>Java · Economy</small></article>
-          <article><span>✦</span><h3>LemonMastery</h3><p>Long-term progression, rewards and achievement systems.</p><small>Java · Progression</small></article>
-          <article><span>⌂</span><h3>LemonGraves</h3><p>Safe player death and inventory recovery system.</p><small>Java · Persistence</small></article>
-          <article><span>▣</span><h3>LemonShop</h3><p>Flexible in-game shop and economy integration.</p><small>Java · Commerce</small></article>
+          <article><span>✦</span><h3>LemonMastery</h3><p>Long-term progression, rewards, and achievement systems.</p><small>Java · Progression</small></article>
         </div>
       </section>
 
       <section class="tech-wrap">
         <div class="container section-pad compact-pad">
-          <div class="section-heading reveal"><div><p class="eyebrow">TOOLS I USE</p><h2>Technical stack</h2><p>Technologies I’ve used directly across these projects.</p></div></div>
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">TOOLS I USE</p>
+              <h2>Technical stack</h2>
+              <p>Technologies I’ve used directly across these projects.</p>
+            </div>
+          </div>
+
           <div class="tech-grid reveal">
-            <div><b>Java 21</b><small>Plugins & backend systems</small></div>
+            <div><b>Java 21</b><small>Backend & server applications</small></div>
+            <div><b>JavaScript</b><small>Frontend & backend logic</small></div>
+            <div><b>PHP</b><small>WordPress custom development</small></div>
             <div><b>Node.js</b><small>Web backends & services</small></div>
             <div><b>Express</b><small>HTTP & REST APIs</small></div>
-            <div><b>Discord.js</b><small>Bots & integrations</small></div>
+            <div><b>WordPress / WooCommerce</b><small>E-commerce & CMS development</small></div>
             <div><b>HTML / CSS</b><small>Responsive interfaces</small></div>
-            <div><b>JavaScript</b><small>Frontend & backend logic</small></div>
-            <div><b>Maven</b><small>Java builds & dependencies</small></div>
-            <div><b>Git / GitHub</b><small>Version control & repos</small></div>
-            <div><b>Paper / Purpur</b><small>Server application platform</small></div>
             <div><b>REST APIs</b><small>Cross-system communication</small></div>
+            <div><b>Git / GitHub</b><small>Version control & deployment</small></div>
+            <div><b>Maven</b><small>Java builds & dependencies</small></div>
+            <div><b>Discord.js</b><small>Community integrations</small></div>
+            <div><b>Paper / Purpur</b><small>Java server application platform</small></div>
           </div>
         </div>
       </section>
@@ -191,17 +256,25 @@
           <div class="about-card reveal">
             <p class="eyebrow">ABOUT ME</p>
             <h2>Hi, I’m John.</h2>
-            <p>I’m a software and web developer focused on turning real requirements into working systems. I enjoy projects where interfaces, backend logic, APIs, automation, and external platforms have to work together reliably.</p>
-            <p>I’m currently building out my portfolio for software development, web development, backend, integration, and website-building opportunities.</p>
+            <p>I’m a software and web developer focused on building practical products across websites, backend services, APIs, integrations, and automation.</p>
+            <p>My recent work includes a custom WooCommerce e-commerce experience, a multi-system web/Discord/Java platform, and a Java automation tool backed by 117 automated tests.</p>
+            <p>My freelance creative background also gave me hands-on experience working from client briefs, handling revisions, communicating remotely, and delivering against deadlines.</p>
+
+            <div class="social-row">
+              <a href="https://github.com/havimotions" target="_blank" rel="noreferrer">GitHub ↗</a>
+              <a href="https://www.linkedin.com/in/john-ponteres-2313a62a5/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+              <a href="resume.html">Résumé ↗</a>
+            </div>
           </div>
+
           <div class="drive-card reveal">
             <p class="eyebrow">WHAT I BRING</p>
             <ul>
-              <li><span>01</span> Product thinking beyond isolated code</li>
-              <li><span>02</span> Full workflows across frontend and backend</li>
-              <li><span>03</span> API and third-party system integration</li>
+              <li><span>01</span> End-to-end thinking beyond isolated code</li>
+              <li><span>02</span> Responsive web and e-commerce development</li>
+              <li><span>03</span> Backend APIs and third-party integrations</li>
               <li><span>04</span> Testing, debugging, and production iteration</li>
-              <li><span>05</span> Fast learning with AI-assisted development</li>
+              <li><span>05</span> Fast learning across unfamiliar systems</li>
             </ul>
           </div>
         </div>
@@ -212,24 +285,33 @@
           <div>
             <p class="eyebrow">OPEN TO OPPORTUNITIES</p>
             <h2>Let’s build something useful.</h2>
-            <p>Interested in software development, web development, backend, integration, automation, and website-building roles.</p>
+            <p>I’m interested in software development, web development, backend, integration, automation, and website-building roles.</p>
           </div>
           <div class="contact-actions">
-            <button class="btn btn-accent" data-copy-email="john.ponteres@example.com">Copy Email</button>
-            <a class="btn btn-ghost" href="#top">Back to top ↑</a>
+            <a class="btn btn-accent" href="mailto:johnponteres07@gmail.com">Email Me</a>
+            <a class="btn btn-ghost" href="resume.html">View Résumé</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/john-ponteres-2313a62a5/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
           </div>
         </div>
-        <p class="setup-note">Before publishing: replace the placeholder email and add your public résumé / GitHub / LinkedIn links.</p>
       </section>
     </main>
 
     <footer>
       <div class="container footer-inner">
-        <div class="brand"><span class="brand-mark">JP</span><div><b>John Ponteres</b><small>Software Developer · Web Developer</small></div></div>
-        <p>Build · Integrate · Automate</p>
+        <div class="brand">
+          <span class="brand-mark">JP</span>
+          <div><b>John Ponteres</b><small>Software Developer · Web Developer</small></div>
+        </div>
+        <div class="footer-links">
+          <a href="mailto:johnponteres07@gmail.com">Email</a>
+          <a href="https://github.com/havimotions" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/john-ponteres-2313a62a5/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="resume.html">Résumé</a>
+        </div>
       </div>
     </footer>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
